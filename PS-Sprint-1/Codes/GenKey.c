@@ -22,8 +22,11 @@ int main(int argc, char const *argv[])
 {
     // int a = 3521, b = 2452, c = 1352;
     // int a = 1234, b = 5678, c = 9802;
-    int a = 9876, b = 5432, c = 6732;
+    // int a = 9876, b = 5432, c = 6732;
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
 
-    printf("Key is %d ", findKey(a, b, c));
+
+    printf("%d", findKey(a, b, c));
     return 0;
 }
