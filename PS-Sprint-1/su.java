@@ -4,5 +4,7 @@ class suku{
         Scanner su = new Scanner(System.in);
         int su1= su.nextInt();
         System.out.println(su1);
+        su.close();
     }
+
 }
